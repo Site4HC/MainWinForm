@@ -47,5 +47,11 @@ namespace Biblio
         {
 
         }
+
+        private void OpenTableKatalog_Click(object sender, EventArgs e)
+        {
+            frmKatalog f1 = new frmKatalog();
+            f1.ShowDialog();
+        }
     }
 }

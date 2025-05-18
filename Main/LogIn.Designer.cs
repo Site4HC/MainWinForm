@@ -108,6 +108,7 @@
             this.Controls.Add(this.btnOK);
             this.Name = "LogIn";
             this.Text = "Авторизація";
+            this.Load += new System.EventHandler(this.LogIn_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

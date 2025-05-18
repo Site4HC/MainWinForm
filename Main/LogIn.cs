@@ -88,6 +88,11 @@ namespace Biblio
         {
             Avtorization();
         }
+
+        private void LogIn_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 
     public static class h
@@ -95,6 +100,8 @@ namespace Biblio
         public static string ConStr { get; set; }
         public static string typeUser { get; set; }
         public static string nameUser { get; set; }
+        public static string curVal0 { get; set; }
+        public static string keyName { get; set; }
         public static BindingSource bs1 { get; set; }
 
         public static DataTable myfunDt(string commandString)

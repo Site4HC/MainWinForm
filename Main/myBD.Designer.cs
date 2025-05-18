@@ -107,6 +107,7 @@
             this.OpenTableKatalog.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
             this.OpenTableKatalog.Size = new System.Drawing.Size(180, 22);
             this.OpenTableKatalog.Text = "Каталог";
+            this.OpenTableKatalog.Click += new System.EventHandler(this.OpenTableKatalog_Click);
             // 
             // OpenTableFormuliar
             // 

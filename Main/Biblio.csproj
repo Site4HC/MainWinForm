@@ -94,6 +94,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Table1_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table1_Delete.Designer.cs">
+      <DependentUpon>Table1_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Table1_Insert.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Table1_Insert.Designer.cs">
+      <DependentUpon>Table1_Insert.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +134,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Table1_Delete.resx">
+      <DependentUpon>Table1_Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Table1_Insert.resx">
+      <DependentUpon>Table1_Insert.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

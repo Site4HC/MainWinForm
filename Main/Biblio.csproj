@@ -62,6 +62,12 @@
     <Compile Include="Calculator.Designer.cs">
       <DependentUpon>Calculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormUpdateRecToTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUpdateRecToTable.Designer.cs">
+      <DependentUpon>FormUpdateRecToTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmFormuliar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUpdateRecToTable.resx">
+      <DependentUpon>FormUpdateRecToTable.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmKatalog.resx">
       <DependentUpon>frmKatalog.cs</DependentUpon>

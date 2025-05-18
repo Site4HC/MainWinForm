@@ -59,5 +59,35 @@ namespace Main.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2025_04_02_062420 {
+            get {
+                object obj = ResourceManager.GetObject("Знімок екрана 2025-04-02 062420", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2025_04_02_062537 {
+            get {
+                object obj = ResourceManager.GetObject("Знімок екрана 2025-04-02 062537", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Знімок_екрана_2025_05_18_163920 {
+            get {
+                object obj = ResourceManager.GetObject("Знімок екрана 2025-05-18 163920", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

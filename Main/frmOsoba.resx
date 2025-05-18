@@ -117,14 +117,71 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Знімок екрана 2025-04-02 062537" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-04-02 062537.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <metadata name="bindingNavigator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bindingNavigatorMoveFirstItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAATFJREFUOE9jYBg0oHDW8/9NC57/z5z4+D+6HAyEtz/AKceQO/PZ/1VH3v/HpSi+
+        +8H/4IZrWOXAIGPK0/8L933Aqii+5+H/pfv///evvoAhBwcJPU/+T9vyHkNRRPt9sObMWf//e5WewG1A
+        ZNej/72rP6AoCm29B9bcuu7/f//Ov/9d8g/gNiCw+eH/uvnv4IqCW+7+X7T3//+Odf//Z8z5+d+u7ud/
+        +4ztuA3wqLr/P3/aGxRFdsW3/6fP+f3fv+vbf53Cd/8tEtbjNsC+9O7/7MmvMRTpp5z/b1L04r9K1qf/
+        xpHLcBtgkXfnf2r/a6yKDJJO/JdN+/pfN3gehhwcGGbd/h/W8hKnIv3Uy/81fKdhlQMDnbQb//2qH+JV
+        pOIxAaccg1Pulf8gBXgVDUoAAPB2wKtYlLYeAAAAAElFTkSuQmCC
+</value>
   </data>
-  <data name="Знімок екрана 2025-05-18 163920" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-05-18 163920.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bindingNavigatorMovePreviousItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAALtJREFUOE9jYBgyILz9wX90MaJBfPeD/8EN18gzIL7n4f+l+///96++QLoBEe33
+        wZozZ/3/71V6gjQDQlvvgTW3rvv/37/z73+X/APEGxDccvf/or3//3es+/8/Y87P/3Z1P//bZ2wn3gAQ
+        sCu+/T99zu///l3f/usUvvtvkbCeNANAQD/l/H+Tohf/VbI+/TeOXEa6ASBgkHTiv2za1/+6wfPIMwAE
+        9FMv/9fwnUa+ASCg4jGBMgMGLwAA0BRgmCws/7cAAAAASUVORK5CYII=
+</value>
   </data>
-  <data name="Знімок екрана 2025-04-02 062420" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Знімок екрана 2025-04-02 062420.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bindingNavigatorMoveNextItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAAKRJREFUOE9jYBh0oHDW8//oYiSB3JnP/id03yPfkIwpT//P2//7f0LXHfIMSeh5
+        8n/2vl//O7f+/e9Wepl0QyK7Hv2fsu3X/5Klf/8nTP/73yb3LGmGBDY//N+69j1Ys3HJl//S0df+G0cu
+        I94Qj6r7/0vmvoNrVnTpIV4zCNiX3v0f2PKMPM0gYJF3579NwRXyNIOAYdZt8jWDgE7aDfI1D00AAKB+
+        X6Bjq5qXAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="bindingNavigatorMoveLastItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wgAADsIBFShKgAAAAStJREFUOE9jYBhUoHDW8//oYjAAkmta8Px/5sTHONUw5M589j+h+x5WBSC5VUfe
+        /w9vf4BVHgwypjz9P2//7/8JXXcwFIHkFu778D+44RqGHBwk9Dz5P3vfr/+dW//+dyu9jKIQJDdty/v/
+        /tUXcBsQ2fXo/5Rtv/6XLP37P2H63/82uWfhikFyvas//PcqPYHbgMDmh/9b174HazYu+fJfOvraf+PI
+        ZWANILm6+e/+u+QfwG2AR9X9/yVz38E1K7r0wBWD5PKnvflvn7EdtwH2pXf/B7Y8w9AMk8ue/Pq/RcJ6
+        3AZY5N35b1NwBUMzTC61/zXcS1iBYdZtrJpBACQX1vLyv27wPKzyYKCTdgOnJEjOr/rhfw3faTjV4AVO
+        uVf+q3hMAGN0uYEFAL7Rv7NmXVYYAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnFind.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABgAAAAWCAYAAADafVyIAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPYSURBVEhLxZTZT1xlGMb7Z2hiHAYLjdAEBpgZZhiwTJl9
+        YQaGZRbKmgJFlqI2IqagMZEiwRAB2SRCjTQpVJQKCSgNxKSlJnjjBcEEuICURDaBEPafmXMxcea08abG
+        Jzk33/Oc9/d9533Pd4H/WBdCF162/j/AwcEB7e3tfNXXz8TERKjN1tYWnR1f0tfXz/T0o1A7oBcChoeH
+        SU934nJl43BkhNoMDd0jM8NFdlYOWVnZoXZALwQMDAyiUCRiNJjQpelDbYaGhlAlqjGbLGg0yaF2QM8F
+        zM7OUlZ2IwAw6k00NTXT9Okd6urqaW5u4b13b5EQJxdOl5SUQlPTHU5PT0NLPR/gdGZgs9qFF91uLwad
+        EZvVIUAd6RkoFWo8bh9vpaTi9eaRnHwFvc7A6OhoaCkx4PHjJ8hkcZhMVjSaFMwmKyajhbSrepzOTDKc
+        mQIgy5UjrBsMJrRaHVptGj6vL7ScGNDd3UN01GX0eiMFhcVkZ+WiUiURJ5Njtzvo6OjkcnQMKpUaq9WO
+        x5OHx5tHQoIcuVzB2dlZUD0RYGRkBKk0HKPRTFV1LXm+fBKVal595TWqqmpYXl5G8noYUVHRArCkpJSS
+        62XExMSSmqr9d8DGxgZhYVIsFhvVNbX4vNeEaent6WVx8Q9OTk6YmprC7fZgtzkoLr5OaVkFsbFx1Nd/
+        GFpODNje3iY8/A3s6U7hBF5PHgq5kunp6UDGv8vs7BwsZhtFhSWUV1QRnyCnsbExqJZfIsDk5CQXL0bg
+        zHAJAHeul4R4OYODg0E5hUIpNLmwoJiKyhoUykTMZktQxi8RoKOjg4iISFxZOVRW3SQ3x4NMFk9bW1tQ
+        zr8Jg94oACqra4VBiIyMDMr4JQK0tLQglUrRpRkoyC8S/odLkZdobW0NZM7Pz4U++afG6/bhyfURGyND
+        IpEIPfqnRACj0YRalYQiRo1VkY9aqSFOlsDt2w2BzO7uLhKJFFViErpEO7r4TOTxCqHR4+PjQfVEALnU
+        QF3yt3QVTfBN9S984fmR0uhuSkvLA5n5+Xm0ET4+0X1Hf/k0A2/P8HnmGO43PxZ9ShHgqsZCgaaOB+8/
+        4feeHT67dpei1HoaGz8KZNbX1zGoXJRpG3jUtMhvnX/yQXob7itVdHV1CZlnz56xtrYmBszMzHJv8D5u
+        WwHFmTe4WX6LHx48ZGVlJZDxj+lPUz/zde9dPLZCCpxl1L/TwMPvx1ldXeXw8BCHw4HZbBYD/E3a2fmL
+        p09/ZW5ujoWFBfb29kJjHB0dsbm5KWT8z9LSEvv7+4Lnv1XHxsaEy08EeFk6Pj4WNvE30b+V+nvYj5UA
+        AAAASUVORK5CYII=
+</value>
   </data>
 </root>

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Security.Cryptography;
+using Main;
 
 namespace Biblio
 {
@@ -34,6 +35,17 @@ namespace Biblio
         {
             Calculator f2 = new Calculator();
             f2.ShowDialog();
+        }
+
+        private void OpenTableOsoba_Click(object sender, EventArgs e)
+        {
+            frmOsoba f1 = new frmOsoba();
+            f1.ShowDialog();
+        }
+
+        private void myBD_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

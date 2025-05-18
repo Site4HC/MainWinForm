@@ -62,6 +62,24 @@
     <Compile Include="Calculator.Designer.cs">
       <DependentUpon>Calculator.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFormuliar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFormuliar.Designer.cs">
+      <DependentUpon>frmFormuliar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmKatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmKatalog.Designer.cs">
+      <DependentUpon>frmKatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOsoba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOsoba.Designer.cs">
+      <DependentUpon>frmOsoba.cs</DependentUpon>
+    </Compile>
     <Compile Include="LogIn.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -81,6 +99,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Calculator.resx">
       <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmKatalog.resx">
+      <DependentUpon>frmKatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOsoba.resx">
+      <DependentUpon>frmOsoba.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LogIn.resx">
       <DependentUpon>LogIn.cs</DependentUpon>
@@ -110,6 +134,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Знімок екрана 2025-05-18 163920.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Знімок екрана 2025-04-02 062537.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Знімок екрана 2025-04-02 062420.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

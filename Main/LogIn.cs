@@ -12,11 +12,11 @@ using MySql.Data.MySqlClient;
 
 namespace Biblio
 {
-    
     public partial class LogIn : Form
     {
         public string[,] matrix;
         DataTable dt;
+
         public LogIn()
         {
             InitializeComponent();
@@ -36,41 +36,8 @@ namespace Biblio
                 txtPassword.UseSystemPasswordChar = true;
                 cbxUser.Focus();
             }
-
         }
-        static class h
-        {
-            public static string ConStr { get; set; }
-            public static string typeUser { get; set; }
-            public static string nameUser  { get; set; }
-            public static BindingSource bs1 { get; set; }
-            public static DataTable myfunDt(string commandString)
-            {
-                DataTable dt = new DataTable();
-                using (MySqlConnection con = new MySqlConnection(h.ConStr))
-                {
-                    MySqlCommand cmd = new MySqlCommand(commandString, con);
-                    try
-                    {
-                        con.Open();
-                        using (MySqlDataReader dr = cmd.ExecuteReader())
-                        {
-                            if (dr.HasRows)
-                            {
-                                dt.Load(dr);
-                            }
-                        }
-                        con.Close();
-                    }
-                    catch (Exception ex)
-                    {
-                        MessageBox.Show("Неможливо з'єднатися з SQL-сервером! \nПеревірте наявність Інтернету...", ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
-                    }
-                    return dt;
-                }
-            }
 
-        }
         public static string EncryptedPassword_MD5(string s)
         {
             if (string.Compare(s, "null", true) == 0)
@@ -83,11 +50,11 @@ namespace Biblio
                 hash += string.Format("{0:x2}", b);
             return hash;
         }
+
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
-
 
         private void Avtorization()
         {
@@ -121,6 +88,39 @@ namespace Biblio
         {
             Avtorization();
         }
+    }
 
+    public static class h
+    {
+        public static string ConStr { get; set; }
+        public static string typeUser { get; set; }
+        public static string nameUser { get; set; }
+        public static BindingSource bs1 { get; set; }
+
+        public static DataTable myfunDt(string commandString)
+        {
+            DataTable dt = new DataTable();
+            using (MySqlConnection con = new MySqlConnection(h.ConStr))
+            {
+                MySqlCommand cmd = new MySqlCommand(commandString, con);
+                try
+                {
+                    con.Open();
+                    using (MySqlDataReader dr = cmd.ExecuteReader())
+                    {
+                        if (dr.HasRows)
+                        {
+                            dt.Load(dr);
+                        }
+                    }
+                    con.Close();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Неможливо з'єднатися з SQL-сервером! \nПеревірте наявність Інтернету...", ex.Message, MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                return dt;
+            }
+        }
     }
 }

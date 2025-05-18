@@ -34,6 +34,9 @@
             this.калькуляторToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.проПрограмуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.вихідToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.OpenTableOsoba = new System.Windows.Forms.ToolStripMenuItem();
+            this.OpenTableKatalog = new System.Windows.Forms.ToolStripMenuItem();
+            this.OpenTableFormuliar = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +56,10 @@
             // 
             // таблиціБДToolStripMenuItem
             // 
+            this.таблиціБДToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.OpenTableOsoba,
+            this.OpenTableKatalog,
+            this.OpenTableFormuliar});
             this.таблиціБДToolStripMenuItem.Name = "таблиціБДToolStripMenuItem";
             this.таблиціБДToolStripMenuItem.Size = new System.Drawing.Size(81, 20);
             this.таблиціБДToolStripMenuItem.Text = "Таблиці БД";
@@ -84,6 +91,31 @@
             this.вихідToolStripMenuItem.Text = "Вихід";
             this.вихідToolStripMenuItem.Click += new System.EventHandler(this.вихідToolStripMenuItem_Click);
             // 
+            // OpenTableOsoba
+            // 
+            this.OpenTableOsoba.Image = global::Main.Properties.Resources.Знімок_екрана_2025_04_02_062537;
+            this.OpenTableOsoba.Name = "OpenTableOsoba";
+            this.OpenTableOsoba.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D1)));
+            this.OpenTableOsoba.Size = new System.Drawing.Size(180, 22);
+            this.OpenTableOsoba.Text = "Читачі";
+            this.OpenTableOsoba.Click += new System.EventHandler(this.OpenTableOsoba_Click);
+            // 
+            // OpenTableKatalog
+            // 
+            this.OpenTableKatalog.Image = global::Main.Properties.Resources.Знімок_екрана_2025_05_18_163920;
+            this.OpenTableKatalog.Name = "OpenTableKatalog";
+            this.OpenTableKatalog.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D2)));
+            this.OpenTableKatalog.Size = new System.Drawing.Size(180, 22);
+            this.OpenTableKatalog.Text = "Каталог";
+            // 
+            // OpenTableFormuliar
+            // 
+            this.OpenTableFormuliar.Image = global::Main.Properties.Resources.Знімок_екрана_2025_04_02_062420;
+            this.OpenTableFormuliar.Name = "OpenTableFormuliar";
+            this.OpenTableFormuliar.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D3)));
+            this.OpenTableFormuliar.Size = new System.Drawing.Size(180, 22);
+            this.OpenTableFormuliar.Text = "Формуляр";
+            // 
             // myBD
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -93,6 +125,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "myBD";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.myBD_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -108,6 +141,9 @@
         private System.Windows.Forms.ToolStripMenuItem калькуляторToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem проПрограмуToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem вихідToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem OpenTableOsoba;
+        private System.Windows.Forms.ToolStripMenuItem OpenTableKatalog;
+        private System.Windows.Forms.ToolStripMenuItem OpenTableFormuliar;
     }
 }
 

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -11,6 +12,7 @@ using MySql.Data.MySqlClient;
 
 namespace Biblio
 {
+    
     public partial class LogIn : Form
     {
         public string[,] matrix;
@@ -69,7 +71,18 @@ namespace Biblio
             }
 
         }
-
+        public static string EncryptedPassword_MD5(string s)
+        {
+            if (string.Compare(s, "null", true) == 0)
+                return "NULL";
+            byte[] bytes = Encoding.Unicode.GetBytes(s);
+            MD5CryptoServiceProvider CSP = new MD5CryptoServiceProvider();
+            byte[] byteHach = CSP.ComputeHash(bytes);
+            string hash = string.Empty;
+            foreach (byte b in byteHach)
+                hash += string.Format("{0:x2}", b);
+            return hash;
+        }
         private void btnExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -82,7 +95,7 @@ namespace Biblio
             {
                 if (String.Equals(cbxUser.Text.ToUpper(), matrix[i, 1].ToUpper()))
                 {
-                    if (String.Equals((txtPassword.Text), matrix[i, 3]))
+                    if (String.Equals(EncryptedPassword_MD5(txtPassword.Text), matrix[i, 3]))
                     {
                         this.Hide();
                         myBD f1 = new myBD();
@@ -108,5 +121,6 @@ namespace Biblio
         {
             Avtorization();
         }
+
     }
 }

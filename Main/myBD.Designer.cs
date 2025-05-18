@@ -1,4 +1,4 @@
-﻿namespace Main
+﻿namespace Biblio
 {
     partial class myBD
     {

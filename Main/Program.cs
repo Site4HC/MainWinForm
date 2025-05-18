@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Biblio;
 
 namespace Main
 {
@@ -16,7 +17,7 @@ namespace Main
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new myBD());
+            Application.Run(new LogIn());
         }
     }
 }

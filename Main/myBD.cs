@@ -10,6 +10,7 @@ using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Security.Cryptography;
 using Main;
+using System.IO;
 
 namespace Biblio
 {

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Biblio;
 using MySql.Data.MySqlClient;
+using System.IO;
 
 namespace Main
 {
@@ -146,6 +147,37 @@ namespace Main
             else
             {
                 MessageBox.Show("Будь ласка, виберіть рядок для редагування.", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void dataGridView1_CellEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            int rindx = dataGridView1.CurrentCell.RowIndex;
+
+            // Ensure the row index is valid
+            if (rindx >= 0 && rindx < dataGridView1.Rows.Count)
+            {
+                // Ensure the 7th column exists
+                if (dataGridView1.Columns.Count > 6 && dataGridView1.Rows[rindx].Cells[6].Value != null && dataGridView1.Rows[rindx].Cells[6].Value != DBNull.Value && dataGridView1.Rows[rindx].Cells[6].Value.ToString().Length > 0)
+                {
+                    try
+                    {
+                        byte[] a = (byte[])dataGridView1.Rows[rindx].Cells[6].Value;
+                        using (MemoryStream memImage = new MemoryStream(a))
+                        {
+                            pictureBox1.Image = Image.FromStream(memImage);
+                        }
+                    }
+                    catch (InvalidCastException ex)
+                    {
+                        MessageBox.Show($"Помилка приведення типу для зображення: {ex.Message}", "Помилка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        pictureBox1.Image = Image.FromFile(@"D:\AAA\C#\univer\Main\Main\bin\Debug\img247.jpg");
+                    }
+                }
+                else
+                {
+                    pictureBox1.Image = Image.FromFile(@"D:\AAA\C#\univer\Main\Main\bin\Debug\img247.jpg");
+                }
             }
         }
     }
